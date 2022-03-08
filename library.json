@@ -1,0 +1,40 @@
+{
+    "name": "ArduinoST7735",
+    "version": "0.1.1",
+    "description": "Libraries for SmartHome project",
+    "keywords": "smarthome, st7735",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ustisha/ArduinoST7735.git"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Deryabin",
+            "email": "dmitriy@ustisha.ru",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "atmelmegaavr"
+    ],
+    "dependencies": [
+        {
+            "owner": "adafruit",
+            "name": "Adafruit BusIO",
+            "version": "^1.7"
+        },
+        {
+            "owner": "adafruit",
+            "name": "Adafruit GFX Library",
+            "version": "^1.10"
+        },
+        {
+            "owner": "adafruit",
+            "name": "Adafruit ST7735 and ST7789 Library",
+            "version": "^1.6"
+        }
+    ]
+}
